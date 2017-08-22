@@ -7,15 +7,6 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <div className="container ">
-          <div className="text-center">
-            <label className="label">Nama Kota</label>
-            <p className="control">
-              <input className="input" type="text" placeholder="--Nama Kota--" />
-            </p>
-          </div>
-        </div>
-        <hr />
         <ContentCuaca />
       </div>
     );
